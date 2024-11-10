@@ -1,0 +1,171 @@
+
+/* Обнуление стилей */
+*,
+*::before *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,body {
+    height: 100%;
+}
+
+/* По умолчанию 16 рх */
+html {
+    font-size: 16px;
+}
+
+body {
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+
+} 
+ 
+.wrapper {
+    min-height: 100%;  
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* .........lesson8.......... */
+
+
+.block {
+     background:url(../img/Heroshot\ 3.png) center/ cover no-repeat;
+     color: aliceblue;
+     padding: 100px 50px;
+}
+
+
+.block_title {
+    font-size: 50px;
+    margin: 0px 0px 15px 0px;
+}
+
+.block_sub-title {
+font-size: 35px;
+margin: 0px 0px 30px 0px;
+}
+
+.block_text {
+    margin: 0px 0px 20px 0px;
+}
+.block_button {
+    display: inline-block; 
+    font-size: 12px;
+    text-transform: uppercase;
+padding: 17px 50px 17px 20px;
+   color: aliceblue;
+    background:#c40b0b url(../img/Button48px.png) right no-repeat ;
+}
+
+
+/* Вариант с background
+
+
+.perspiciatis {
+    font-size: 0px;
+    display: flex;
+}
+.perspiciatis_item {
+    width: 33.333%;
+  vertical-align: top;
+    padding: 0px 30px 0px 86px ;
+}
+
+.perspiciatis_title {
+    display: inline; 
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    color: #f2726f;
+    padding: 0px 0px 10px 0px;
+}
+.perspiciatis_text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+    color: #4b4b4b;
+    padding: 20px 0px 0px 0px ;
+}
+
+.perspiciatis_item1 {
+    background: url(../img/dog_love_24x.svg) 0 0 no-repeat;
+}
+.perspiciatis_item2 {
+    background: url(../img/dog_vet_24x.svg) 0 0 no-repeat;
+}
+.perspiciatis_item3 {
+    background: url(../img/dog_stream_24x.svg) 0 0 no-repeat;
+} */
+
+
+/* 
+Вариант с img */
+
+.perspiciatis {
+    font-size: 0;
+  display: inline-block;
+}
+
+.perspiciatis_item {
+    display: inline-block;
+    width: 365px;
+    vertical-align: top;
+    padding: 0px 0px 0px 0px;
+}
+
+
+.perspiciatis_icon {
+    display: inline-block;
+    width: 86px;
+    vertical-align: top;
+}
+.perspiciatis_title {
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 1.37;
+    color: #f2726f;
+   margin: 0px 0px 10px 0px;
+
+}
+.perspiciatis_text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+    color: #4b4b4b;
+}
+.perspiciatis_body {
+    width: 235px;
+    display: inline-block;
+    vertical-align: top;
+}
